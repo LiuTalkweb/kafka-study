@@ -1,7 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d82d5853-8e1c-46f9-8fca-20e51191235b" name="Default Changelist" comment="" />
+    <list default="true" id="d82d5853-8e1c-46f9-8fca-20e51191235b" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot/src/main/java/com/example/springboot/base/Controller/SendController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot/src/main/java/com/example/springboot/base/util/MyConsumer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/study/kafka/produce/MsgProduce.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/study/kafka/produce/domain/Order.class" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -14,6 +24,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
@@ -24,6 +37,9 @@
     </option>
   </component>
   <component name="ProjectId" id="1qF9q9GBfDTESq5vE0syfan07yW" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -31,11 +47,12 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="settings.editor.selected.configurable" value="MavenSettings" />
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.MsgProduce">
     <configuration name="MsgProduce" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.study.kafka.produce.MsgProduce" />
       <module name="kafka-study" />
@@ -45,6 +62,13 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="spring-boot" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.springboot.Application" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -77,7 +101,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1616664658457</updated>
-      <workItem from="1616664660334" duration="2041000" />
+      <workItem from="1616664660334" duration="4473000" />
+      <workItem from="1616833457103" duration="273000" />
     </task>
     <servers />
   </component>
@@ -89,25 +114,29 @@
       <screen x="1366" y="0" width="1920" height="1040" />
     </state>
     <state x="2106" y="278" key="FileChooserDialogImpl/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1616664743480" />
-    <state width="1877" height="97" key="GridCell.Tab.0.bottom" timestamp="1616666739050">
+    <state width="1877" height="135" key="GridCell.Tab.0.bottom" timestamp="1616753574903">
       <screen x="1366" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="97" key="GridCell.Tab.0.bottom/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1616666739050" />
-    <state width="1877" height="97" key="GridCell.Tab.0.center" timestamp="1616666739049">
+    <state width="1877" height="135" key="GridCell.Tab.0.bottom/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1616753574903" />
+    <state width="1877" height="135" key="GridCell.Tab.0.center" timestamp="1616753574902">
       <screen x="1366" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="97" key="GridCell.Tab.0.center/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1616666739049" />
-    <state width="1877" height="97" key="GridCell.Tab.0.left" timestamp="1616666739049">
+    <state width="1877" height="135" key="GridCell.Tab.0.center/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1616753574902" />
+    <state width="1877" height="135" key="GridCell.Tab.0.left" timestamp="1616753574899">
       <screen x="1366" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="97" key="GridCell.Tab.0.left/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1616666739049" />
-    <state width="1877" height="97" key="GridCell.Tab.0.right" timestamp="1616666739050">
+    <state width="1877" height="135" key="GridCell.Tab.0.left/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1616753574899" />
+    <state width="1877" height="135" key="GridCell.Tab.0.right" timestamp="1616753574902">
       <screen x="1366" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="97" key="GridCell.Tab.0.right/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1616666739050" />
+    <state width="1877" height="135" key="GridCell.Tab.0.right/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1616753574902" />
     <state x="1829" y="165" key="SettingsEditor" timestamp="1616664781000">
       <screen x="1366" y="0" width="1920" height="1040" />
     </state>
     <state x="1829" y="165" key="SettingsEditor/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1616664781000" />
+    <state x="1700" y="224" key="new project wizard" timestamp="1616833806486">
+      <screen x="1366" y="0" width="1920" height="1040" />
+    </state>
+    <state x="1700" y="224" key="new project wizard/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1616833806486" />
   </component>
 </project>
